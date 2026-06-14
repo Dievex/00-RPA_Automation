@@ -90,10 +90,21 @@ La priorización de los casos de uso se ha realizado evaluando tres dimensiones 
 | CU | Nombre | Riesgo | Valor | Frecuencia | Total | Prioridad |
 |----|--------|--------|-------|------------|-------|-----------|
 | **CU1** | Registrar declaración | 3 | 3 | 3 | **9** | Alta |
+| **CU2** | Guardar registro | 3 | 3 | 3 | **9** | Alta |
 | **CU3** | Enviar a SAP | 3 | 3 | 3 | **9** | Alta |
+| **CU4** | Loguearse en SAP | 3 | 3 | 3 | **9** | Alta |
 | **CU5** | Procesar declaraciones | 3 | 3 | 3 | **9** | Alta |
-| **CU7** | Cambio automático password | 2 | 3 | 2 | **7** | Media |
-| **CU10** | Consultar log completo | 1 | 2 | 3 | **6** | Media |
-| **CU12** | Crear usuario | 1 | 1 | 1 | **3** | Baja |
+| **CU6** | Iniciar sesión | 3 | 3 | 3 | **9** | Alta |
+| **CU7** | Cambio automático contraseña | 3 | 2 | 1 | **6** | Media |
+| **CU8** | Imprimir Galia | 1 | 3 | 3 | **7** | Media |
+| **CU9** | Consultar log propio | 1 | 3 | 3 | **7** | Media |
+| **CU10** | Consultar log completo | 1 | 3 | 2 | **6** | Media |
+| **CU11** | Actualizar registro | 1 | 2 | 2 | **5** | Media |
+| **CU12** | Crear usuario | 1 | 2 | 1 | **4** | Baja |
+| **CU13** | Consultar usuarios | 1 | 2 | 1 | **4** | Baja |
+| **CU14** | Actualizar usuario | 1 | 2 | 1 | **4** | Baja |
+| **CU15** | Eliminar usuario | 1 | 1 | 1 | **3** | Baja |
+| **CU16** | Eliminar registro | 1 | 1 | 1 | **3** | Baja |
+| **CU17** | Desbloquear cuenta SAP | 1 | 1 | 1 | **3** | Baja |
 
 *Nota: El detalle completo de los 17 CU se encuentra en la sección de [Casos de Uso Detallados](../casos-de-uso-detallados/README.md).*
