@@ -84,8 +84,8 @@ El sistema utiliza Microsoft SQL Server como motor de persistencia, compartiendo
 
 El diseño de la base de datos se centra en la trazabilidad de las declaraciones y la gestión de credenciales por puesto de trabajo.
 
-![Esquema Base de Datos](./diagramas/esquema-bbdd.png)
-*Figura 7: Diagrama del modelo físico de datos. 📌 Sube el diagrama correspondiente del PDF a esta carpeta como `esquema-bbdd.png`*
+![Esquema Base de Datos](./diagramas/BaseDatos.jpeg)
+*Diagrama del modelo físico de datos.*
 
 ## Diccionario de Tablas Principales
 
