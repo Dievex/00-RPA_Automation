@@ -1,5 +1,3 @@
-<!-- NAV: adapta los paths según la profundidad del archivo (../) -->
-
 <div align="center">
 
 <table><tr>
