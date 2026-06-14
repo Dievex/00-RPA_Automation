@@ -111,14 +111,6 @@ Se han identificado un total de 17 casos de uso (CU) que cubren todas las funcio
 - **RobotRPA:** Actor de sistema que automatiza la interacción con SAP GUI.
 - **AdministradorSAP:** Interviene solo en casos críticos de bloqueo de cuenta.
 
-## Priorización
-
-La prioridad se ha calculado sumando el Riesgo Arquitectónico (1-3), el Valor de Negocio (1-3) y la Frecuencia de Uso (1-3):
-
-- **Alta (Score 9/9):** CU1 a CU6 (Núcleo del sistema).
-- **Media (Score 6-7):** CU7 a CU11 (Gestión y robustez).
-- **Baja (Score 3-5):** CU12 a CU17 (Administración y casos excepcionales).
-
 ***
 
 ## Detalle de los Casos de Uso Principales
