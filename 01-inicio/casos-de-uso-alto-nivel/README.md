@@ -98,9 +98,13 @@ En esta sección se identifican los actores que interactúan con el sistema y la
 ## Diagramas de Casos de Uso de los actores (Alto Nivel)
 
 ![Casos de Uso Operario](./diagramas/Actor_Operario.svg)
+
 ![Casos de Uso Responsable](./diagramas/Actor_Responsable.svg)
+
 ![Casos de Uso Administrador](./diagramas/Actor_Administrador.svg)
+
 ![Casos de Uso Robot RPA](./diagramas/Actor_RobotRPA.svg)
+
 ![Casos de Uso Administrador SAP](./diagramas/Actor_AdministradorSAP.svg)
 
 *Principales interacciones de los actores con el sistema.*
