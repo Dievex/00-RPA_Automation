@@ -94,8 +94,9 @@ El sistema sigue estrictamente el patrón **Modelo-Vista-Controlador**:
 - **Vista:** Interfaces React específicas por actor y vistas primitivas de datos.
 - **Controlador:** Endpoints de Node.js que orquestan los casos de uso.
 
-![Arquitectura 4 Capas](./diagramas/arquitectura-4-capas.png)
-*Figura 3: Diagrama de arquitectura física y lógica del sistema. 📌 Sube el diagrama correspondiente del PDF a esta carpeta como `arquitectura-4-capas.png`*
+![Arquitectura 4 Capas](./diagramas/arquitectura.svg)
+
+*Diagrama de arquitectura física y lógica del sistema.*
 
 ## Principio de Aislamiento
 Cualquier cambio en la interfaz gráfica de SAP (actualizaciones de versión, cambios de campos) solo afecta a la **Capa de Automatización**. La interfaz web y la lógica de negocio permanecen inalteradas, garantizando un mantenimiento sostenible.
