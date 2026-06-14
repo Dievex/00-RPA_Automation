@@ -93,7 +93,7 @@ En esta sección se identifican los actores que interactúan con el sistema y la
 
 ![Relaciones Actores](./diagramas/Actores_Relaciones.svg)
 
-*Principales interacciones entre los actores.*;
+*Principales interacciones entre los actores.*
 
 ## Diagramas de Casos de Uso de los actores (Alto Nivel)
 
