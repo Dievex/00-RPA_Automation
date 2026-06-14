@@ -89,6 +89,7 @@ La organización del código fuente se divide en tres grandes bloques tecnológi
 - `views/admin`: Paneles de gestión de usuarios y roles.
 
 ![Diagrama de Paquetes Frontend](./diagramas/front.svg)
+
 *Diagrama de paquetes del Frontend.*
 
 ### 2. Backend (Node.js/Express)
@@ -98,6 +99,7 @@ La organización del código fuente se divide en tres grandes bloques tecnológi
 - `config`: Gestión de variables de entorno y conexión a la base de datos.
 
 ![Diagrama de Paquetes Backend](./diagramas/back.svg)
+
 *Diagrama de paquetes del Backend.*
 
 ### 3. RPA (UiPath)
@@ -108,4 +110,5 @@ La organización del código fuente se divide en tres grandes bloques tecnológi
 - `escucha`: Receptor de disparos HTTP desde el servidor.
 
 ![Diagrama de Paquetes RPA](./diagramas/rpa.svg)
+
 *Diagrama de paquetes del RPA.*
