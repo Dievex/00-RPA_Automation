@@ -83,7 +83,7 @@ El robot desarrollado en UiPath es el núcleo de la automatización, encargado d
 
 ## Flujo Lógico de Ejecución
 
-1. **Activación:** El servidor Node.js lanza el robot mediante una petición HTTP (script de disparo).
+1. **Activación:** El servidor Node.js lanza el robot mediante la ejecucion de un archivo .BAT.
 2. **Verificación de Seguridad:** El robot consulta en la tabla `systemcredentials` los días transcurridos desde el último cambio de contraseña.
 3. **Mantenimiento Autónomo:** Si han pasado **≥28 días**, ejecuta automáticamente el flujo de cambio de contraseña en SAP.
 4. **Acceso a SAP:** Abre la SAP GUI utilizando las credenciales recuperadas según el puesto de trabajo origen.
