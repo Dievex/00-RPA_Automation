@@ -88,11 +88,17 @@ La organización del código fuente se divide en tres grandes bloques tecnológi
 - `views/log`: Vistas de tablas y filtrado de registros.
 - `views/admin`: Paneles de gestión de usuarios y roles.
 
+![Diagrama de Paquetes Frontend](./diagramas/front.svg)
+*Diagrama de paquetes del Frontend.*
+
 ### 2. Backend (Node.js/Express)
 - `routes`: Definición de los endpoints de la API REST.
 - `controllers`: Implementación de la lógica de negocio por CU.
 - `models`: Esquemas de datos para SQL Server y validaciones.
 - `config`: Gestión de variables de entorno y conexión a la base de datos.
+
+![Diagrama de Paquetes Backend](./diagramas/back.svg)
+*Diagrama de paquetes del Backend.*
 
 ### 3. RPA (UiPath)
 - `login`: Módulo de autenticación en SAP GUI.
@@ -101,5 +107,5 @@ La organización del código fuente se divide en tres grandes bloques tecnológi
 - `logging`: Componente de registro de actividad del robot.
 - `escucha`: Receptor de disparos HTTP desde el servidor.
 
-![Diagrama de Paquetes](./diagramas/paquetes.png)
-*Figura 11: Organización lógica de los paquetes del sistema. 📌 Sube el diagrama correspondiente del PDF a esta carpeta como `paquetes.png`*
+![Diagrama de Paquetes RPA](./diagramas/rpa.svg)
+*Diagrama de paquetes del RPA.*
