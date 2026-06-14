@@ -94,7 +94,7 @@ El sistema sigue estrictamente el patrón **Modelo-Vista-Controlador**:
 - **Vista:** Interfaces React específicas por actor y vistas primitivas de datos.
 - **Controlador:** Endpoints de Node.js que orquestan los casos de uso.
 
-![Arquitectura 4 Capas](./diagramas/arquitectura.svg)
+![Arquitectura 4 Capas](./diagramas/Arquitectura.svg)
 
 *Diagrama de arquitectura física y lógica del sistema.*
 
