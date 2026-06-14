@@ -84,6 +84,7 @@ El modelo del dominio identifica las entidades fundamentales que participan en e
 ## Escenario (Diagrama de Clases)
 
 ![Modelo de clases](./diagramas/clases.svg)
+
 *Figura 1: Diagrama de clases del modelo del dominio.*
 
 ## Entidades Principales
@@ -102,6 +103,7 @@ El modelo del dominio identifica las entidades fundamentales que participan en e
 ## Escenario de Ejemplo (Diagrama de Objetos)
 
 ![Modelo de Objetos](./diagramas/objetos.svg)
+
 *Figura 2: Escenario concreto de ejecución del sistema.*
 
 ### Descripción del Flujo:
