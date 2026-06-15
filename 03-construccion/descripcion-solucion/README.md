@@ -127,3 +127,10 @@ Exclusivo para el Administrador. Permite realizar el CRUD completo (Crear, Consu
 ![Pantalla Gestión de Usuarios](./capturas/usuarios.jpeg)
 
 *Interfaz del módulo de gestión de usuarios.*
+
+## 🎥 Video de Demostración
+
+En el siguiente vídeo se muestra el funcionamiento completo de la solución implementada:
+
+<video src="./capturas/videoDemoTFG.mp4" controls width="100%"></video>
+
