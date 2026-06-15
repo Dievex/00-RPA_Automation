@@ -86,15 +86,88 @@ Para cada caso de uso se han generado:
 2.  **Diagrama de Secuencia:** Modelado de la interacción temporal entre los objetos del sistema.
 3.  **Mockup / Pantalla Real:** Representación visual de la interfaz final.
 
-## Ejemplo: CU1 Registrar Declaración
+## CU Iniciar Sesion
+![Clase diseño CU Iniciar Sesion](./diagramas/CU-IniciarSesion.svg)
 
-![Secuencia CU1](./diagramas/secuencia-cu1.png)
-*Figura 10: Diagrama de secuencia para el registro de declaraciones. 📌 Sube el diagrama correspondiente del PDF a esta carpeta como `secuencia-cu1.png`*
+*Diagrama de clases para el inicio de sesión.*
 
-### Reglas de Diseño MVC Aplicadas:
-- **Vista:** Una clase `VistaOperario` que gestiona el formulario de entrada.
-- **Controlador:** Un `ControladorDeclaracion` que valida los datos contra el MES.
-- **Modelo:** Uso de la entidad `Galia` para la persistencia del registro en estado 0.
+![Secuencia CU Iniciar Sesion](./diagramas/IniciarSesion.svg)
+
+*Diagrama de secuencia para el inicio de sesión.*
+
+## CU Cambiar Contraseña Automáticamente
+![Clase diseño CU Cambiar Contraseña Automáticamente](./diagramas/CU-CambiarContraseñaAutomaticamente.svg)
+
+*Diagrama de clases para el cambio de contraseña automático.*
+
+![Secuencia CU Cambiar Contraseña Automáticamente](./diagramas/CambiarContraseñaAutomaticamente.svg)
+
+*Diagrama de secuencia para el cambio de contraseña automático.*
+
+## CU Consultar Log
+![Clase diseño CU Consultar Log](./diagramas/CU-ConsultarLog.svg)
+
+*Diagrama de clases para la consulta de logs.*
+
+![Secuencia CU Consultar Log](./diagramas/ConsultarLog.svg)
+
+*Diagrama de secuencia para la consulta de logs.*
+
+## CU Enviar ASAP
+![Clase diseño CU Enviar ASAP](./diagramas/CU-EnviarASAP.svg)
+
+*Diagrama de clases para el envío a ASAP.*
+
+![Secuencia CU Enviar ASAP](./diagramas/EnviarASAP.svg)
+
+*Diagrama de secuencia para el envío a ASAP.*
+
+## CU Gestionar Usuarios
+![Clase diseño CU Gestionar Usuarios](./diagramas/CU-GestionarUsuarios.svg)
+
+*Diagrama de clases para la gestión de usuarios.*
+
+![Secuencia CU Gestionar Usuarios](./diagramas/GestionarUsuarios.svg)
+
+*Diagrama de secuencia para la gestión de usuarios.*
+
+## CU Guardar Registro
+![Clase diseño CU Guardar Registro](./diagramas/CU-GuardarRegistro.svg)
+
+*Diagrama de clases para el guardado de registros.*
+
+![Secuencia CU Guardar Registro](./diagramas/GuardarRegistro.svg)
+
+*Diagrama de secuencia para el guardado de registros.*
+
+## CU Imprimir Galia
+![Clase diseño CU Imprimir Galia](./diagramas/CU-ImprimirGalia.svg)
+
+*Diagrama de clases para la impresión en Galia.*
+
+![Secuencia CU Imprimir Galia](./diagramas/ImprimirGalia.svg)
+
+*Diagrama de secuencia para la impresión en Galia.*
+
+## CU Procesar Declaraciones
+![Clase diseño CU Procesar Declaraciones](./diagramas/CU-ProcesarDeclaraciones.svg)
+
+*Diagrama de clases para el procesamiento de declaraciones.*
+
+![Secuencia CU Procesar Declaraciones](./diagramas/ProcesarDeclaraciones.svg)
+
+*Diagrama de secuencia para el procesamiento de declaraciones.*
+
+## CU Registrar Declaracion
+![Clase diseño CU Registrar Declaracion](./diagramas/CU-RegistrarDeclaracion.svg)
+
+*Diagrama de clases para el registro de declaraciones.*
+
+![Secuencia CU Registrar Declaracion](./diagramas/RegistrarDeclaracion.svg)
+
+*Diagrama de secuencia para el registro de declaraciones.*
+
+
 
 ## Relaciones
 - Estos diseños concretan la [Arquitectura](../../02-elaboracion/arquitectura/README.md) definida en la fase anterior.
