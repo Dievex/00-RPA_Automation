@@ -1,0 +1,56 @@
+@startuml Diagrama_Despliegue_Maflow
+
+title Diagrama de Despliegue — Maflow RPA System
+
+node "PC de Planta\n[Navegador Web]" as CLIENT {
+    component "Interfaz Web (React)" as UI
+}
+
+node "Servidor Aplicación / RPA\n[Windows Server]" as SRV_APP {
+    component "API REST\n[Node.js / Express]" as API
+    component "Middleware JWT\n[Autenticación]" as JWT
+    component "Controllers\n[Declaración, Log, Usuarios]" as CTRL
+    component "Script Activación RPA\n[.bat launcher]" as BAT
+
+    node "Máquina RPA\n[UiPath Robot]" as RPA {
+        component "Flujo: Login SAP" as RPA_LOGIN
+        component "Flujo: Procesar Declaraciones" as RPA_PROC
+        component "Flujo: Cambio Contraseña Auto." as RPA_PASS
+        component "Flujo: Logging y Auditoría" as RPA_LOG
+    }
+}
+
+node "Servidor BigData\n[Windows Server]" as SRV_BD {
+    database "SQL Server\n[Base de Datos]" as DB {
+        artifact "sncsdporder (Declaraciones / Estados)" as TBL_DECL
+        artifact "systemcredentials (Credenciales SAP)" as TBL_CRED
+        artifact "orders / reference (Órdenes)" as TBL_ORDERS
+        artifact "users / rols (Usuarios y Roles)" as TBL_USERS
+        artifact "sncsdporderprocessedsap (Control RPA)" as TBL_PROC
+    }
+
+    component "Sistema MES\n[Manufacturing Execution System]" as MES {
+        component "API Declaración de Piezas" as MES_API
+        database "BD MES\n[Puestos / Órdenes Activas]" as MES_DB
+    }
+}
+
+node "Servidor SAP\n[SAP ERP / ECC]" as SRV_SAP {
+    component "SAP GUI\n[Interfaz Gráfica]" as SAP_GUI
+    component "Transacción CO11N\n[Confirmación Órdenes]" as CO11N
+    component "Transacción SU3\n[Gestión Contraseña]" as SU3
+    component "Módulo Impresión Galia\n[ETI-9]" as SAP_PRINT
+}
+
+node "Impresora de Etiquetas\n[Planta de Producción]" as PRINTER {
+    artifact "Etiqueta Galia (ETI-9)" as LABEL
+}
+
+CLIENT -down-> SRV_APP    : "HTTPS / API REST (JSON)"
+SRV_APP -right-> SRV_BD   : "SQL (Consultas / Updates)"
+SRV_APP -down-> SRV_BD    : "HTTP (Declaración MES)"
+RPA -right-> SRV_BD       : "SQL (Lee estado=0 / Actualiza 1|2)"
+RPA -down-> SRV_SAP       : "SAP GUI Automation\n[UiPath Desktop]"
+SRV_SAP -right-> PRINTER  : "Spooler de Impresión\n[Red local]"
+
+@enduml

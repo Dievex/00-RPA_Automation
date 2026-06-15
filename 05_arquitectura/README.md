@@ -12,6 +12,9 @@ La arquitectura se ha diseñado para solventar la restricción técnica de no po
 ### Diagrama de Arquitectura
 ![Arquitectura 4 Capas](./Arquitectura.svg)
 
+### Diagrama de Despliegue
+![Diagrama de Despliegue](./Despliegue.svg)
+
 ## Patrón MVC Aplicado
 El sistema sigue estrictamente el patrón **Modelo-Vista-Controlador**:
 - **Modelo:** Entidades del dominio y lógica de acceso a datos (Sequelize/SQL Server).
