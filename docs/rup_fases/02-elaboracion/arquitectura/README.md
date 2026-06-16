@@ -98,5 +98,13 @@ El sistema sigue estrictamente el patrón **Modelo-Vista-Controlador**:
 
 *Diagrama de arquitectura física y lógica del sistema.*
 
+## Vista de Casos de Uso (Diagrama de Contexto)
+
+El siguiente diagrama muestra los límites del sistema, cómo los actores acceden a las diferentes pantallas de la interfaz y la integración con los sistemas externos (SAP y MES).
+
+![Diagrama de Contexto](./diagramas/contexto.svg)
+
+*Representación de los actores, pantallas (paquetes) e interacciones con sistemas externos.*
+
 ## Principio de Aislamiento
 Cualquier cambio en la interfaz gráfica de SAP (actualizaciones de versión, cambios de campos) solo afecta a la **Capa de Automatización**. La interfaz web y la lógica de negocio permanecen inalteradas, garantizando un mantenimiento sostenible.
