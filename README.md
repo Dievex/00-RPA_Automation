@@ -77,14 +77,6 @@ En esta sección se identifican los actores que interactúan con el sistema y la
 
 ![Relaciones Actores](./02_actores_casos_uso/Actores_Relaciones.svg)
 
-## Diagrama de Contexto
-
-El diagrama de contexto muestra los límites del sistema, agrupando los casos de uso por las pantallas principales (Declaración, Log Completo y Gestión de Usuarios) y detallando las interacciones con sistemas externos.
-
-![Diagrama de Contexto](./docs/03_diagramas/puml/contexto.puml)
-
-*Organización del sistema por pantallas y accesos de actores.*
-
 ## Diagramas de Casos de Uso (Alto Nivel)
 
 ### Casos de Uso: Operario
